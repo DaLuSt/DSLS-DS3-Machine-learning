@@ -6,6 +6,7 @@ Author: Daan Steur
 import pandas as pd
 import numpy as np
 import scipy.stats as stats
+import seaborn as sns
 from tabulate import tabulate
 
 class exploration:
@@ -98,3 +99,17 @@ class exploration:
 
         ### Output
         print(tabulate(df_cat_stats, headers='keys', tablefmt="simple"))
+    
+    def violin(self, data):
+        # Grouped violinplot
+        fig1, axes = plt.subplots(1, 3, figsize=(12, 5), sharey=True)
+        fig1.suptitle(f'Disease distribution with {self} Coefficient over gender')
+        sns.violinplot(x="Blood_Pressure_Abnormality", y=self, hue="Sex", data=data, palette="Pastel1", split=True, ax=axes[0])
+
+        sns.violinplot(x="Chronic_kidney_disease", y=self, hue="Sex", data=data, palette="Pastel1", split=True, ax=axes[1])
+
+        sns.violinplot(x="Adrenal_and_thyroid_disorders", y=self, hue="Sex", data=data, palette="Pastel1", split=True, ax=axes[2])
+        
+        
+        
+    
