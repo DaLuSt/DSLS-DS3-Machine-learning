@@ -7,6 +7,9 @@ import pandas as pd
 import numpy as np
 import scipy.stats as stats
 from tabulate import tabulate
+import seaborn as sns
+from seaborn import violinplot
+import matplotlib.pyplot as plt
 
 class exploration:
 
@@ -100,9 +103,7 @@ class exploration:
         print(tabulate(df_cat_stats, headers='keys', tablefmt="simple"))
             
     def violin_plot(self, data):
-        import seaborn as sns
-        from seaborn import violinplot
-        import matplotlib.pyplot as plt
+
         # Grouped violinplot
         fig1, axes = plt.subplots(1, 3, figsize=(12, 5), sharey=True)
         fig1.suptitle(f'Disease distribution with {self} Coefficient over gender')
