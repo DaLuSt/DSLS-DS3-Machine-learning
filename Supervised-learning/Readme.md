@@ -1,64 +1,34 @@
-# Project Name
-This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
+# Prediction of Blood Pressure Abnormality based on patient health information. 
+Load, inspect and clean the data. Split the data into a training set and a validation set and a test set. Use a simple classifier as a baseline. Train various classifiers. Motivate your choice in relation to the characteristics of the dataset. Try to combine them into an ensemble learning model that outperforms all of the others
 
-#### -- Project Status: [Active, On-Hold, Completed]
+#### -- Project Status: [Completed]
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
-
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
+The purpose of this project is deve into the basics of supervised machine learning and maintain a propper approach to do machine learning research. 
 
 ### Methods Used
-* Inferential Statistics
-* Machine Learning
+* Machine Learning (Supervised)
 * Data Visualization
 * Predictive Modeling
-* etc.
 
 ### Technologies
-* R 
 * Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+* jupyter notebook
+* sklearn, pandas, matplotlib, seaborn
+* exploration.py (In repo itself)
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
-
-## Needs of this project
-
-- frontend developers
-- data exploration/descriptive statistics
-- data processing/cleaning
-- statistical modeling
-- writeup/reporting
-- etc. (be as specific as possible)
+This supervised machine learning assignment takes a shot at predicting Blood Pressure Abnormality based on patients analytics. The created model can in future be used to to make health predictions based on a patrients seeminly basic health statistics. This way potential health issues can be detected before they become a problem. 
 
 ## Getting Started
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
+2. Raw Data is being kept [here]([Repo folder containing raw data](https://github.com/DaLuSt/DSLS-DS3-Machine-learning/blob/main/Supervised-learning/data.csv)) within this repo.
     
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
+5. Open the jupyter notebook and run all (No manual input should be required)
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
+* [Supervisedlearning_Assingment_DaanSteur_379943_DSLS.ipynb](https://github.com/DaLuSt/DSLS-DS3-Machine-learning/blob/main/Supervised-learning/Supervisedlearning_Assingment_DaanSteur_379943_DSLS.ipynb)
 
 
 ## Contributing Members
@@ -66,9 +36,3 @@ The purpose of this project is ________. (Describe the main goals of the project
 |Name     |   role  | 
 |---------|-----------------|
 |[Daan Steur](https://github.com/DaLuSt])|    Project lead   |
-
-
-
-## Contact
-
-* Feel free to contact team leads with any questions or if you are interested in contributing!
