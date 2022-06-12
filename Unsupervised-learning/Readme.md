@@ -1,5 +1,5 @@
 
-# Dimentionallity reduction of lung cnacer cell type expression.
+# Dimensionality reduction of lung cancer cell type expression.
 
 
 #### -- Project Status: [Completed]
