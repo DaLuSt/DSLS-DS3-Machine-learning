@@ -26,7 +26,7 @@ This unsupervised learning assignment focuses on the dimensionality reduction fo
 ## Getting Started
 
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here]([Repo folder containing raw data](https://github.com/DaLuSt/DSLS-DS3-Machine-learning/blob/main/Supervised-learning/data.csv)) within this repo.
+2. Raw Data is being kept [here]([Repo folder containing raw data](https://github.com/DaLuSt/DSLS-DS3-Machine-learning/tree/main/Unsupervised-learning/data)) within this repo.
     
 5. Open the jupyter notebook and run all (No manual input should be required)
 
