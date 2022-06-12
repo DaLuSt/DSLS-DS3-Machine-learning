@@ -3,9 +3,10 @@
 
 
 #### -- Project Status: [Completed]
-Choose one of the assignments (beginners, intermediate, advanced). Note that each of the assignments can lead to a sufficient mark, you should just choose the one you like the most. If you do not like one of the assignments, you can use your own dataset as well. Just make sure that you explain your choices! 
+The purpose of this project is dive into the basics of unsupervised machine learning and maintain a proper approach to do machine learning research. 
 ## Project Intro/Objective
 The purpose of this project is dive into the basics of unsupervised machine learning and maintain a proper approach to do machine learning research. 
+Read the two datasets in and conduct proper preprocessing. Combine the clinical data with the genetic data. Use unsupervised learning to develop an accurate machine learning model that can predict lung cancer. Explain your choices. Make sure you properly inspect and preprocessing the data. (Check for missing data, skewness, distribution, sample, linearity, correlations etc.). Use an argumentative approach. 
 
 ### Methods Used
 * Dimensionality reduction
