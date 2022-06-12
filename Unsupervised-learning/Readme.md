@@ -1,14 +1,15 @@
 
-# Projet name
-Load, inspect and clean the data. Split the data into a training set and a validation set and a test set. Use a simple classifier as a baseline. Train various classifiers. Motivate your choice in relation to the characteristics of the dataset. Try to combine them into an ensemble learning model that outperforms all of the others
+# Dimentionallity reduction of lung cnacer cell type expression.
+
 
 #### -- Project Status: [Completed]
-
+Choose one of the assignments (beginners, intermediate, advanced). Note that each of the assignments can lead to a sufficient mark, you should just choose the one you like the most. If you do not like one of the assignments, you can use your own dataset as well. Just make sure that you explain your choices! 
 ## Project Intro/Objective
-The purpose of this project is deve into the basics of supervised machine learning and maintain a propper approach to do machine learning research. 
+The purpose of this project is dive into the basics of unsupervised machine learning and maintain a proper approach to do machine learning research. 
 
 ### Methods Used
-* Machine Learning (Supervised)
+* Dimensionality reduction
+* Machine Learning (unSupervised)
 * Data Visualization
 * Predictive Modeling
 
@@ -16,10 +17,10 @@ The purpose of this project is deve into the basics of supervised machine learni
 * Python
 * jupyter notebook
 * sklearn, pandas, matplotlib, seaborn
-* exploration.py (In repo itself)
+
 
 ## Project Description
-This supervised machine learning assignment takes a shot at predicting Blood Pressure Abnormality based on patients analytics. The created model can in future be used to to make health predictions based on a patrients seeminly basic health statistics. This way potential health issues can be detected before they become a problem. 
+This unsupervised learning assignment focuses on the dimensionality reduction for the prediction of lung cancer cell type differentiation by cluster analysis.
 
 ## Getting Started
 
@@ -29,7 +30,7 @@ This supervised machine learning assignment takes a shot at predicting Blood Pre
 5. Open the jupyter notebook and run all (No manual input should be required)
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Supervisedlearning_Assingment_DaanSteur_379943_DSLS.ipynb](https://github.com/DaLuSt/DSLS-DS3-Machine-learning/blob/main/Supervised-learning/Supervisedlearning_Assingment_DaanSteur_379943_DSLS.ipynb)
+* [Unsupervisedlearning_Assingment_DaanSteur_379943_DSLS.ipynb](https://github.com/DaLuSt/DSLS-DS3-Machine-learning/blob/main/Unsupervised-learning/Unsupervised_Assingment_DaanSteur_379943_DSLS.ipynb)
 
 
 ## Contributing Members
