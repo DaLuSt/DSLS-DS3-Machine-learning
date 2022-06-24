@@ -29,7 +29,7 @@ The purpose of this project is dive into the basics of deep learning and maintai
 5. Open the jupyter notebook and run all (No manual input should be required)
 
 ## Featured Notebooks/Analysis/Deliverables
-* [Supervisedlearning_Assingment_DaanSteur_379943_DSLS.ipynb](https://github.com/DaLuSt/DSLS-DS3-Machine-learning/blob/main/Supervised-learning/DeepLearning_Rice_DaanSteur_379943_DSLS.ipynb)
+* [DeepLearning_Rice_DaanSteur_379943_DSLS.ipynb](https://github.com/DaLuSt/DSLS-DS3-Machine-learning/blob/main/deep-learning/DeepLearning_Rice_DaanSteur_379943_DSLS.ipynb)
 
 
 ## Contributing Members
